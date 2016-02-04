@@ -79,7 +79,6 @@ If this method is used to generate results for publication we ask that you inclu
 ```
 Automation protocols made available by Kapa Biosystems Automation Team at https://github.com/ngi-automation/truseq-nano
 ```
-*VWorks Automation Control*, *Bravo* and other things relating to the *Agilent NGS Workstation* are trademarks owned by Agilent Technologies, Inc. (Santa Clara, CA 95052-8058, US).
 
 
 [email]: mailto:dan.stover@kapabiosystems.com "E-mail author"
@@ -88,7 +87,7 @@ Automation protocols made available by Kapa Biosystems Automation Team at https:
 
 ---
 
->[National Genomics Infrastructure][ngi] at [SciLifeLab][scilife]  
+>[Kapa Biosystems Automation Team] 
 <automation@kapabiosystems.com>  
 January 2015
 
