@@ -1,5 +1,21 @@
 # Kapa Automation Code Repository #
 
+
+**Table of Contents**  *generated with [DocToc](http://doctoc.herokuapp.com/)*
+
+- [Kapa Automation Code Repository](#)
+	- [Contents](#)
+	- [Description](#)
+	- [Requirements](#)
+			- [Included files](#)
+	- [Installation](#)
+		- [Download files](#)
+				- [Using Git](#)
+		- [Configure](#)
+			- [Labware and and liquid class definitions](#)
+			- [Device files](#)
+	- [License](#)
+
 ## Contents ##
 1. [Description](#Description)
 2. [Requirements](#requirements)
