@@ -1,0 +1,517 @@
+[Form_KapaLC002_RunPCR]
+Ticked		= False
+
+[Form_KapaSS2_NoSS]
+DoSS1NoSS_SPRI2	= False
+
+[Form_KapaSS1_NoSS]
+DoSS1NoSS_SPRI2	= True
+
+[Form_KapaLC002_DoIt]
+FirstChecked	= 2
+
+[Form_KapaSS2_DualSS_IncTime(2)]
+UDhhmmss		= 180
+Default		= 900
+
+[Form_KapaSS2_DualSS_IncTime(1)]
+UDhhmmss		= 180
+Default		= 900
+
+[Form_KapaSS1_DualSS_IncTime(2)]
+UDhhmmss		= 180
+Default		= 900
+
+[Form_KapaSS1_DualSS_IncTime(1)]
+UDhhmmss		= 180
+Default		= 900
+
+[Form_KapaLC002_OptionSS2]
+Ticked		= 1
+
+[Form_KapaLC002_OptionSS1]
+Ticked		= 1
+
+[Form_KapaLC002]
+DoSPRI_ER2	= False
+DoSPRIBeforeER	= False
+
+[CS_CS]
+LastCol		= 1
+FirstCol		= 1
+Change		= 1
+
+[Form_KapaSS2_SPRINoSS(1)]
+VolSample	= 50
+
+[Form_KapaSS2_SPRINoSS(1)_UCIncTime]
+UDhhmmss		= 180
+Default		= 900
+
+[Form_KapaSS2_SPRINoSS(2)]
+VolSample	= 25
+
+[Form_KapaSS2_SPRINoSS(2)_UCIncTime]
+UDhhmmss		= 120
+Default		= 600
+
+[Form_KapaSS2_SPRIDualSS]
+VolSample	= 50
+
+[Form_KapaSS2_SPRIDualSS_UCIncTime]
+UDhhmmss		= 180
+Default		= 900
+
+[Form_KapaSS2_DualSSIncTime(2)]
+UDhhmmss		= 180
+Default		= 900
+
+[Form_KapaSS2_DualSSIncTime(1)]
+UDhhmmss		= 120
+Default		= 600
+
+[Form_KapaSS2_SPRIOffline]
+DoSS1NoSS_SPRI2	= False
+PromptForFinalVolume		= False	
+VolSample	= 50
+
+[Form_KapaSS2_SPRIOffline_UCIncTime]
+UDhhmmss		= 180
+Default		= 900
+
+[Form_KapaSS1_SPRINoSS(1)]
+VolSample	= 50
+
+[Form_KapaSS1_SPRINoSS(1)_UCIncTime]
+UDhhmmss		= 180
+Default		= 900
+
+[Form_KapaSS1_SPRINoSS(2)]
+VolSample	= 50
+
+[Form_KapaSS1_SPRINoSS(2)_UCIncTime]
+UDhhmmss		= 180
+Default		= 900
+
+[Form_KapaSS1_SPRIDualSS]
+VolSample	= 50
+
+[Form_KapaSS1_SPRIDualSS_UCIncTime]
+UDhhmmss		= 180
+Default		= 900
+
+[Form_KapaSS1_DualSSIncTime(2)]
+UDhhmmss		= 180
+Default		= 900
+
+[Form_KapaSS1_DualSSIncTime(1)]
+UDhhmmss		= 120
+Default		= 600
+
+[Form_KapaSS1_SPRIOffline]
+NoSS		= True
+DoSS1NoSS_SPRI2	= True
+PromptForFinalVolume	= True
+VolSample	= 50
+
+[Form_KapaSS1_SPRIOffline_UCIncTime]
+UDhhmmss		= 180
+Default		= 900
+
+[Form_KapaLC002_SPRI_ER2]
+VolSample	= 50
+
+[Form_KapaLC002_SPRI_ER2_UCIncTime]
+UDhhmmss		= 120
+Default		= 600
+
+[Form_KapaLC002_SPRIBeforeER]
+VolSample	= 50
+
+[Form_KapaLC002_SPRIBeforeER_UCIncTime]
+UDhhmmss		= 180
+Default		= 900
+
+[Form_KapaLC002_SPRI_ATail]
+VolSample	= 50
+
+[Form_KapaLC002_SPRI_ATail_UCIncTime]
+UDhhmmss		= 180
+Default		= 900
+
+[Form_KapaLC002_SPRI_ER]
+VolSample	= 70
+
+[Form_KapaLC002_SPRI_ER_UCIncTime]
+UDhhmmss		= 180
+Default		= 900
+
+[Form_KapaLC002_ERIncTime]
+UDhhmmss		= 360
+Default		= 1800
+
+[Form_KapaLC002_ATailIncTime]
+UDhhmmss		= 360
+Default		= 1800
+
+[Form_KapaLC002_LigIncTime]
+UDhhmmss		= 180
+Default		= 900
+
+[TextScrollers]
+Form_KapaSS2_DualSS_VolTransfer	= 155
+Form_KapaSS2_DualSS_VolTransfer_Change	= 20
+Form_KapaSS2_DualSS_VolTransfer_Default	= 3100
+Form_KapaSS2_DualSS_VolTransfer_Max	= 3200
+Form_KapaSS2_DualSS_VolTransfer_Min	= 0
+Form_KapaSS2_DualSS_VolTransfer_Caption	= Vol. Transfer:
+Form_KapaSS1_DualSS_VolTransfer	= 155
+Form_KapaSS1_DualSS_VolTransfer_Change	= 20
+Form_KapaSS1_DualSS_VolTransfer_Default	= 3100
+Form_KapaSS1_DualSS_VolTransfer_Max	= 3200
+Form_KapaSS1_DualSS_VolTransfer_Min	= 0
+Form_KapaSS1_DualSS_VolTransfer_Caption	= Vol. Transfer:
+Form_KapaLC002_PreERVolTransfer	= 45
+Form_KapaLC002_PreERVolTransfer_Change	= 20
+Form_KapaLC002_PreERVolTransfer_Default	= 900
+Form_KapaLC002_PreERVolTransfer_Max	= 1000
+Form_KapaLC002_PreERVolTransfer_Min	= 0
+Form_KapaLC002_PreERVolTransfer_Caption	= Vol. Transfer
+Form_KapaSS2_DualSS_VolElution	= 25
+Form_KapaSS2_DualSS_VolElution_Change	= 20
+Form_KapaSS2_DualSS_VolElution_Default	= 500
+Form_KapaSS2_DualSS_VolElution_Max	= 2000
+Form_KapaSS2_DualSS_VolElution_Min	= 400
+Form_KapaSS2_DualSS_VolElution_Caption	= Vol. Elution:
+Form_KapaSS2_DualSS_AddAmpure	= 20
+Form_KapaSS2_DualSS_AddAmpure_Change	= 20
+Form_KapaSS2_DualSS_AddAmpure_Default	= 400
+Form_KapaSS2_DualSS_AddAmpure_Max	= 4000
+Form_KapaSS2_DualSS_AddAmpure_Min	= 0
+Form_KapaSS2_DualSS_AddAmpure_Caption	= Add Ampure:
+Form_KapaSS2_DualSS_SPRIFactor	= 0.6
+Form_KapaSS2_DualSS_SPRIFactor_Change	= 1
+Form_KapaSS2_DualSS_SPRIFactor_Default	= 12
+Form_KapaSS2_DualSS_SPRIFactor_Max	= 60
+Form_KapaSS2_DualSS_SPRIFactor_Min	= 2
+Form_KapaSS2_DualSS_SPRIFactor_Caption	= SPRI Factor:
+Form_KapaSS1_DualSS_VolElution	= 25
+Form_KapaSS1_DualSS_VolElution_Change	= 20
+Form_KapaSS1_DualSS_VolElution_Default	= 500
+Form_KapaSS1_DualSS_VolElution_Max	= 2000
+Form_KapaSS1_DualSS_VolElution_Min	= 400
+Form_KapaSS1_DualSS_VolElution_Caption	= Vol. Elution:
+Form_KapaSS1_DualSS_AddAmpure	= 20
+Form_KapaSS1_DualSS_AddAmpure_Change	= 20
+Form_KapaSS1_DualSS_AddAmpure_Default	= 400
+Form_KapaSS1_DualSS_AddAmpure_Max	= 4000
+Form_KapaSS1_DualSS_AddAmpure_Min	= 0
+Form_KapaSS1_DualSS_AddAmpure_Caption	= Add Ampure:
+Form_KapaSS1_DualSS_SPRIFactor	= 0.6
+Form_KapaSS1_DualSS_SPRIFactor_Change	= 1
+Form_KapaSS1_DualSS_SPRIFactor_Default	= 12
+Form_KapaSS1_DualSS_SPRIFactor_Max	= 60
+Form_KapaSS1_DualSS_SPRIFactor_Min	= 2
+Form_KapaSS1_DualSS_SPRIFactor_Caption	= SPRI Factor:
+Form_KapaSS2_DualSSAddAmpure	= 20
+Form_KapaSS2_DualSSAddAmpure_Change	= 20
+Form_KapaSS2_DualSSAddAmpure_Default	= 20
+Form_KapaSS2_DualSSAddAmpure_Max	= 32760
+Form_KapaSS2_DualSSAddAmpure_Min	= 0
+Form_KapaSS2_DualSSAddAmpure_Caption	= Add Ampure:
+Form_KapaSS1_DualSSAddAmpure	= 20
+Form_KapaSS1_DualSSAddAmpure_Change	= 20
+Form_KapaSS1_DualSSAddAmpure_Default	= 20
+Form_KapaSS1_DualSSAddAmpure_Max	= 32760
+Form_KapaSS1_DualSSAddAmpure_Min	= 0
+Form_KapaSS1_DualSSAddAmpure_Caption	= Add Ampure:
+Form_KapaSS2_SPRINoSS(1)_UCVolElution	= 25
+Form_KapaSS2_SPRINoSS(1)_UCVolElution_Change	= 20
+Form_KapaSS2_SPRINoSS(1)_UCVolElution_Default	= 500
+Form_KapaSS2_SPRINoSS(1)_UCVolElution_Max	= 2000
+Form_KapaSS2_SPRINoSS(1)_UCVolElution_Min	= 400
+Form_KapaSS2_SPRINoSS(1)_UCVolElution_Caption	= Vol. Elution:
+Form_KapaSS2_SPRINoSS(1)_UCSPRIFactor	= 1
+Form_KapaSS2_SPRINoSS(1)_UCSPRIFactor_Change	= 1
+Form_KapaSS2_SPRINoSS(1)_UCSPRIFactor_Default	= 20
+Form_KapaSS2_SPRINoSS(1)_UCSPRIFactor_Max	= 60
+Form_KapaSS2_SPRINoSS(1)_UCSPRIFactor_Min	= 2
+Form_KapaSS2_SPRINoSS(1)_UCSPRIFactor_Caption	= SPRI Factor:
+Form_KapaSS2_SPRINoSS(2)_UCVolElution	= 1
+Form_KapaSS2_SPRINoSS(2)_UCVolElution_Change	= 20
+Form_KapaSS2_SPRINoSS(2)_UCVolElution_Default	= 20
+Form_KapaSS2_SPRINoSS(2)_UCVolElution_Max	= 2000
+Form_KapaSS2_SPRINoSS(2)_UCVolElution_Min	= 0
+Form_KapaSS2_SPRINoSS(2)_UCVolElution_Caption	= Vol. Elution:
+Form_KapaSS2_SPRINoSS(2)_UCSPRIFactor	= 1
+Form_KapaSS2_SPRINoSS(2)_UCSPRIFactor_Change	= 20
+Form_KapaSS2_SPRINoSS(2)_UCSPRIFactor_Default	= 20
+Form_KapaSS2_SPRINoSS(2)_UCSPRIFactor_Max	= 200
+Form_KapaSS2_SPRINoSS(2)_UCSPRIFactor_Min	= 0
+Form_KapaSS2_SPRINoSS(2)_UCSPRIFactor_Caption	= SPRI Factor:
+Form_KapaSS2_SPRIDualSS_UCVolElution	= 100
+Form_KapaSS2_SPRIDualSS_UCVolElution_Change	= 20
+Form_KapaSS2_SPRIDualSS_UCVolElution_Default	= 2000
+Form_KapaSS2_SPRIDualSS_UCVolElution_Max	= 2000
+Form_KapaSS2_SPRIDualSS_UCVolElution_Min	= 400
+Form_KapaSS2_SPRIDualSS_UCVolElution_Caption	= Vol. Elution:
+Form_KapaSS2_SPRIDualSS_UCSPRIFactor	= 1
+Form_KapaSS2_SPRIDualSS_UCSPRIFactor_Change	= 1
+Form_KapaSS2_SPRIDualSS_UCSPRIFactor_Default	= 20
+Form_KapaSS2_SPRIDualSS_UCSPRIFactor_Max	= 60
+Form_KapaSS2_SPRIDualSS_UCSPRIFactor_Min	= 2
+Form_KapaSS2_SPRIDualSS_UCSPRIFactor_Caption	= SPRI Factor:
+Form_KapaSS2_DualSSVolElution	= 30
+Form_KapaSS2_DualSSVolElution_Change	= 20
+Form_KapaSS2_DualSSVolElution_Default	= 600
+Form_KapaSS2_DualSSVolElution_Max	= 2000
+Form_KapaSS2_DualSSVolElution_Min	= 0
+Form_KapaSS2_DualSSVolElution_Caption	= Vol. Elution:
+Form_KapaSS2_DualSSMixCycles(2)	= 10
+Form_KapaSS2_DualSSMixCycles(2)_Change	= 20
+Form_KapaSS2_DualSSMixCycles(2)_Default	= 200
+Form_KapaSS2_DualSSMixCycles(2)_Max	= 800
+Form_KapaSS2_DualSSMixCycles(2)_Min	= 0
+Form_KapaSS2_DualSSMixCycles(2)_Caption	= Mix Cycles:
+Form_KapaSS2_DualSSMixCycles(1)	= 20
+Form_KapaSS2_DualSSMixCycles(1)_Change	= 20
+Form_KapaSS2_DualSSMixCycles(1)_Default	= 400
+Form_KapaSS2_DualSSMixCycles(1)_Max	= 800
+Form_KapaSS2_DualSSMixCycles(1)_Min	= 0
+Form_KapaSS2_DualSSMixCycles(1)_Caption	= Mix Cycles:
+Form_KapaSS2_DualSSAddBeads	= 20
+Form_KapaSS2_DualSSAddBeads_Change	= 20
+Form_KapaSS2_DualSSAddBeads_Default	= 400
+Form_KapaSS2_DualSSAddBeads_Max	= 800
+Form_KapaSS2_DualSSAddBeads_Min	= 0
+Form_KapaSS2_DualSSAddBeads_Caption	= AddBeads (µl):
+Form_KapaSS2_DualSSSPRIFactor	= 0.6
+Form_KapaSS2_DualSSSPRIFactor_Change	= 1
+Form_KapaSS2_DualSSSPRIFactor_Default	= 12
+Form_KapaSS2_DualSSSPRIFactor_Max	= 60
+Form_KapaSS2_DualSSSPRIFactor_Min	= 10
+Form_KapaSS2_DualSSSPRIFactor_Caption	= SPRI Factor:
+Form_KapaSS2_SSOfflineVolRecovery	= 50
+Form_KapaSS2_SSOfflineVolRecovery_Change	= 20
+Form_KapaSS2_SSOfflineVolRecovery_Default	= 1000
+Form_KapaSS2_SSOfflineVolRecovery_Max	= 2000
+Form_KapaSS2_SSOfflineVolRecovery_Min	= 0
+Form_KapaSS2_SSOfflineVolRecovery_Caption	= Volume:
+Form_KapaSS2_SPRIOffline_UCVolElution	= 25
+Form_KapaSS2_SPRIOffline_UCVolElution_Change	= 20
+Form_KapaSS2_SPRIOffline_UCVolElution_Default	= 500
+Form_KapaSS2_SPRIOffline_UCVolElution_Max	= 2000
+Form_KapaSS2_SPRIOffline_UCVolElution_Min	= 400
+Form_KapaSS2_SPRIOffline_UCVolElution_Caption	= Vol. Elution:
+Form_KapaSS2_SPRIOffline_UCSPRIFactor	= 1
+Form_KapaSS2_SPRIOffline_UCSPRIFactor_Change	= 1
+Form_KapaSS2_SPRIOffline_UCSPRIFactor_Default	= 20
+Form_KapaSS2_SPRIOffline_UCSPRIFactor_Max	= 60
+Form_KapaSS2_SPRIOffline_UCSPRIFactor_Min	= 2
+Form_KapaSS2_SPRIOffline_UCSPRIFactor_Caption	= SPRI Factor:
+Form_KapaSS1_SPRINoSS(1)_UCVolElution	= 50
+Form_KapaSS1_SPRINoSS(1)_UCVolElution_Change	= 20
+Form_KapaSS1_SPRINoSS(1)_UCVolElution_Default	= 1000
+Form_KapaSS1_SPRINoSS(1)_UCVolElution_Max	= 2000
+Form_KapaSS1_SPRINoSS(1)_UCVolElution_Min	= 400
+Form_KapaSS1_SPRINoSS(1)_UCVolElution_Caption	= Vol. Elution:
+Form_KapaSS1_SPRINoSS(1)_UCSPRIFactor	= 1
+Form_KapaSS1_SPRINoSS(1)_UCSPRIFactor_Change	= 1
+Form_KapaSS1_SPRINoSS(1)_UCSPRIFactor_Default	= 20
+Form_KapaSS1_SPRINoSS(1)_UCSPRIFactor_Max	= 60
+Form_KapaSS1_SPRINoSS(1)_UCSPRIFactor_Min	= 2
+Form_KapaSS1_SPRINoSS(1)_UCSPRIFactor_Caption	= SPRI Factor:
+Form_KapaSS1_SPRINoSS(2)_UCVolElution	= 25
+Form_KapaSS1_SPRINoSS(2)_UCVolElution_Change	= 20
+Form_KapaSS1_SPRINoSS(2)_UCVolElution_Default	= 600
+Form_KapaSS1_SPRINoSS(2)_UCVolElution_Max	= 2000
+Form_KapaSS1_SPRINoSS(2)_UCVolElution_Min	= 400
+Form_KapaSS1_SPRINoSS(2)_UCVolElution_Caption	= Vol. Elution:
+Form_KapaSS1_SPRINoSS(2)_UCSPRIFactor	= 1
+Form_KapaSS1_SPRINoSS(2)_UCSPRIFactor_Change	= 1
+Form_KapaSS1_SPRINoSS(2)_UCSPRIFactor_Default	= 20
+Form_KapaSS1_SPRINoSS(2)_UCSPRIFactor_Max	= 60
+Form_KapaSS1_SPRINoSS(2)_UCSPRIFactor_Min	= 2
+Form_KapaSS1_SPRINoSS(2)_UCSPRIFactor_Caption	= SPRI Factor:
+Form_KapaSS1_SPRIDualSS_UCVolElution	= 100
+Form_KapaSS1_SPRIDualSS_UCVolElution_Change	= 20
+Form_KapaSS1_SPRIDualSS_UCVolElution_Default	= 2000
+Form_KapaSS1_SPRIDualSS_UCVolElution_Max	= 2000
+Form_KapaSS1_SPRIDualSS_UCVolElution_Min	= 400
+Form_KapaSS1_SPRIDualSS_UCVolElution_Caption	= Vol. Elution:
+Form_KapaSS1_SPRIDualSS_UCSPRIFactor	= 1
+Form_KapaSS1_SPRIDualSS_UCSPRIFactor_Change	= 1
+Form_KapaSS1_SPRIDualSS_UCSPRIFactor_Default	= 20
+Form_KapaSS1_SPRIDualSS_UCSPRIFactor_Max	= 60
+Form_KapaSS1_SPRIDualSS_UCSPRIFactor_Min	= 2
+Form_KapaSS1_SPRIDualSS_UCSPRIFactor_Caption	= SPRI Factor:
+Form_KapaSS1_DualSSVolElution	= 30
+Form_KapaSS1_DualSSVolElution_Change	= 20
+Form_KapaSS1_DualSSVolElution_Default	= 600
+Form_KapaSS1_DualSSVolElution_Max	= 2000
+Form_KapaSS1_DualSSVolElution_Min	= 0
+Form_KapaSS1_DualSSVolElution_Caption	= Vol. Elution:
+Form_KapaSS1_DualSSMixCycles(2)	= 10
+Form_KapaSS1_DualSSMixCycles(2)_Change	= 20
+Form_KapaSS1_DualSSMixCycles(2)_Default	= 200
+Form_KapaSS1_DualSSMixCycles(2)_Max	= 800
+Form_KapaSS1_DualSSMixCycles(2)_Min	= 0
+Form_KapaSS1_DualSSMixCycles(2)_Caption	= Mix Cycles:
+Form_KapaSS1_DualSSMixCycles(1)	= 20
+Form_KapaSS1_DualSSMixCycles(1)_Change	= 20
+Form_KapaSS1_DualSSMixCycles(1)_Default	= 400
+Form_KapaSS1_DualSSMixCycles(1)_Max	= 800
+Form_KapaSS1_DualSSMixCycles(1)_Min	= 0
+Form_KapaSS1_DualSSMixCycles(1)_Caption	= Mix Cycles:
+Form_KapaSS1_DualSSAddBeads	= 20
+Form_KapaSS1_DualSSAddBeads_Change	= 20
+Form_KapaSS1_DualSSAddBeads_Default	= 400
+Form_KapaSS1_DualSSAddBeads_Max	= 800
+Form_KapaSS1_DualSSAddBeads_Min	= 0
+Form_KapaSS1_DualSSAddBeads_Caption	= AddBeads (µl):
+Form_KapaSS1_DualSSSPRIFactor	= 0.6
+Form_KapaSS1_DualSSSPRIFactor_Change	= 1
+Form_KapaSS1_DualSSSPRIFactor_Default	= 12
+Form_KapaSS1_DualSSSPRIFactor_Max	= 60
+Form_KapaSS1_DualSSSPRIFactor_Min	= 10
+Form_KapaSS1_DualSSSPRIFactor_Caption	= SPRI Factor:
+Form_KapaSS1_SSOfflineVolRecovery	= 25
+Form_KapaSS1_SSOfflineVolRecovery_Change	= 20
+Form_KapaSS1_SSOfflineVolRecovery_Default	= 500
+Form_KapaSS1_SSOfflineVolRecovery_Max	= 2000
+Form_KapaSS1_SSOfflineVolRecovery_Min	= 0
+Form_KapaSS1_SSOfflineVolRecovery_Caption	= Volume:
+Form_KapaSS1_SPRIOffline_UCVolElution	= 25
+Form_KapaSS1_SPRIOffline_UCVolElution_Change	= 20
+Form_KapaSS1_SPRIOffline_UCVolElution_Default	= 500
+Form_KapaSS1_SPRIOffline_UCVolElution_Max	= 2000
+Form_KapaSS1_SPRIOffline_UCVolElution_Min	= 400
+Form_KapaSS1_SPRIOffline_UCVolElution_Caption	= Vol. Elution:
+Form_KapaSS1_SPRIOffline_UCSPRIFactor	= 1
+Form_KapaSS1_SPRIOffline_UCSPRIFactor_Change	= 1
+Form_KapaSS1_SPRIOffline_UCSPRIFactor_Default	= 20
+Form_KapaSS1_SPRIOffline_UCSPRIFactor_Max	= 60
+Form_KapaSS1_SPRIOffline_UCSPRIFactor_Min	= 2
+Form_KapaSS1_SPRIOffline_UCSPRIFactor_Caption	= SPRI Factor:
+Form_KapaLC002_SPRI_ER2_UCVolElution	= 0
+Form_KapaLC002_SPRI_ER2_UCVolElution_Change	= 20
+Form_KapaLC002_SPRI_ER2_UCVolElution_Default	= 0
+Form_KapaLC002_SPRI_ER2_UCVolElution_Max	= 2000
+Form_KapaLC002_SPRI_ER2_UCVolElution_Min	= 0
+Form_KapaLC002_SPRI_ER2_UCVolElution_Caption	= Vol. Elution:
+Form_KapaLC002_SPRI_ER2_UCSPRIFactor	= 1.8
+Form_KapaLC002_SPRI_ER2_UCSPRIFactor_Change	= 1
+Form_KapaLC002_SPRI_ER2_UCSPRIFactor_Default	= 36
+Form_KapaLC002_SPRI_ER2_UCSPRIFactor_Max	= 60
+Form_KapaLC002_SPRI_ER2_UCSPRIFactor_Min	= 10
+Form_KapaLC002_SPRI_ER2_UCSPRIFactor_Caption	= SPRI Factor:
+Form_KapaLC002_SPRIBeforeER_UCVolElution	= 50
+Form_KapaLC002_SPRIBeforeER_UCVolElution_Change	= 20
+Form_KapaLC002_SPRIBeforeER_UCVolElution_Default	= 1000
+Form_KapaLC002_SPRIBeforeER_UCVolElution_Max	= 4000
+Form_KapaLC002_SPRIBeforeER_UCVolElution_Min	= 0
+Form_KapaLC002_SPRIBeforeER_UCVolElution_Caption	= Vol. Elution:
+Form_KapaLC002_SPRIBeforeER_UCSPRIFactor	= 1.8
+Form_KapaLC002_SPRIBeforeER_UCSPRIFactor_Change	= 1
+Form_KapaLC002_SPRIBeforeER_UCSPRIFactor_Default	= 36
+Form_KapaLC002_SPRIBeforeER_UCSPRIFactor_Max	= 60
+Form_KapaLC002_SPRIBeforeER_UCSPRIFactor_Min	= 2
+Form_KapaLC002_SPRIBeforeER_UCSPRIFactor_Caption	= SPRI Factor:
+Form_KapaLC002_SPRI_ATail_UCVolElution	= 0
+Form_KapaLC002_SPRI_ATail_UCVolElution_Change	= 20
+Form_KapaLC002_SPRI_ATail_UCVolElution_Default	= 0
+Form_KapaLC002_SPRI_ATail_UCVolElution_Max	= 2000
+Form_KapaLC002_SPRI_ATail_UCVolElution_Min	= 0
+Form_KapaLC002_SPRI_ATail_UCVolElution_Caption	= Vol. Elution:
+Form_KapaLC002_SPRI_ATail_UCSPRIFactor	= 1.8
+Form_KapaLC002_SPRI_ATail_UCSPRIFactor_Change	= 1
+Form_KapaLC002_SPRI_ATail_UCSPRIFactor_Default	= 36
+Form_KapaLC002_SPRI_ATail_UCSPRIFactor_Max	= 60
+Form_KapaLC002_SPRI_ATail_UCSPRIFactor_Min	= 2
+Form_KapaLC002_SPRI_ATail_UCSPRIFactor_Caption	= SPRI Factor:
+Form_KapaLC002_SPRI_ER_UCVolElution	= 0
+Form_KapaLC002_SPRI_ER_UCVolElution_Change	= 20
+Form_KapaLC002_SPRI_ER_UCVolElution_Default	= 0
+Form_KapaLC002_SPRI_ER_UCVolElution_Max	= 2000
+Form_KapaLC002_SPRI_ER_UCVolElution_Min	= 0
+Form_KapaLC002_SPRI_ER_UCVolElution_Caption	= Vol. Elution:
+Form_KapaLC002_SPRI_ER_UCSPRIFactor	= 1.7
+Form_KapaLC002_SPRI_ER_UCSPRIFactor_Change	= 1
+Form_KapaLC002_SPRI_ER_UCSPRIFactor_Default	= 34
+Form_KapaLC002_SPRI_ER_UCSPRIFactor_Max	= 60
+Form_KapaLC002_SPRI_ER_UCSPRIFactor_Min	= 2
+Form_KapaLC002_SPRI_ER_UCSPRIFactor_Caption	= SPRI Factor:
+Form_KapaLC002_ERIncTemp	= 20
+Form_KapaLC002_ERIncTemp_Change	= 20
+Form_KapaLC002_ERIncTemp_Default	= 400
+Form_KapaLC002_ERIncTemp_Max	= 600
+Form_KapaLC002_ERIncTemp_Min	= 200
+Form_KapaLC002_ERIncTemp_Caption	= Inc. Temp (C):
+Form_KapaLC002_ERVolMix	= 20
+Form_KapaLC002_ERVolMix_Change	= 20
+Form_KapaLC002_ERVolMix_Default	= 400
+Form_KapaLC002_ERVolMix_Max	= 4000
+Form_KapaLC002_ERVolMix_Min	= 0
+Form_KapaLC002_ERVolMix_Caption	= Vol ER Mix:
+Form_KapaLC002_ATailIncTemp	= 30
+Form_KapaLC002_ATailIncTemp_Change	= 20
+Form_KapaLC002_ATailIncTemp_Default	= 600
+Form_KapaLC002_ATailIncTemp_Max	= 800
+Form_KapaLC002_ATailIncTemp_Min	= 200
+Form_KapaLC002_ATailIncTemp_Caption	= Inc. Temp (C):
+Form_KapaLC002_ATailVolMix	= 50
+Form_KapaLC002_ATailVolMix_Change	= 20
+Form_KapaLC002_ATailVolMix_Default	= 1000
+Form_KapaLC002_ATailVolMix_Max	= 4000
+Form_KapaLC002_ATailVolMix_Min	= 0
+Form_KapaLC002_ATailVolMix_Caption	= Vol. AT Mix:
+Form_KapaLC002_LigIncTemp	= 20
+Form_KapaLC002_LigIncTemp_Change	= 20
+Form_KapaLC002_LigIncTemp_Default	= 400
+Form_KapaLC002_LigIncTemp_Max	= 600
+Form_KapaLC002_LigIncTemp_Min	= 200
+Form_KapaLC002_LigIncTemp_Caption	= Inc. Temp (C):
+Form_KapaLC002_LigVolAdapter	= 5
+Form_KapaLC002_LigVolAdapter_Change	= 2
+Form_KapaLC002_LigVolAdapter_Default	= 100
+Form_KapaLC002_LigVolAdapter_Max	= 1000
+Form_KapaLC002_LigVolAdapter_Min	= 0
+Form_KapaLC002_LigVolAdapter_Caption	= Vol. Adapter:
+Form_KapaLC002_LigVolMix	= 45
+Form_KapaLC002_LigVolMix_Change	= 20
+Form_KapaLC002_LigVolMix_Default	= 900
+Form_KapaLC002_LigVolMix_Max	= 4000
+Form_KapaLC002_LigVolMix_Min	= 0
+Form_KapaLC002_LigVolMix_Caption	= Vol. Lig. Mix:
+Form_KapaLC002_AMPVolTransfer	= 20
+Form_KapaLC002_AMPVolTransfer_Change	= 20
+Form_KapaLC002_AMPVolTransfer_Default	= 400
+Form_KapaLC002_AMPVolTransfer_Max	= 500
+Form_KapaLC002_AMPVolTransfer_Min	= 0
+Form_KapaLC002_AMPVolTransfer_Caption	= Transfer to New Plate:
+Form_KapaLC002_AMPVolMix	= 25
+Form_KapaLC002_AMPVolMix_Change	= 20
+Form_KapaLC002_AMPVolMix_Default	= 500
+Form_KapaLC002_AMPVolMix_Max	= 1000
+Form_KapaLC002_AMPVolMix_Min	= 0
+Form_KapaLC002_AMPVolMix_Caption	= Vol. ReadyMix:
+Form_KapaLC002_AMPVolPrimer	= 5
+Form_KapaLC002_AMPVolPrimer_Change	= 20
+Form_KapaLC002_AMPVolPrimer_Default	= 100
+Form_KapaLC002_AMPVolPrimer_Max	= 1000
+Form_KapaLC002_AMPVolPrimer_Min	= 0
+Form_KapaLC002_AMPVolPrimer_Caption	= Vol. Primer:
+Form_KapaLC002_VolStart	= 50
+Form_KapaLC002_VolStart_Change	= 20
+Form_KapaLC002_VolStart_Default	= 1000
+Form_KapaLC002_VolStart_Max	= 4000
+Form_KapaLC002_VolStart_Min	= 0
+Form_KapaLC002_VolStart_Caption	= Vol. Sample:
+Form_KapaLC002_NumAdapters	= 8
+Form_KapaLC002_NumAdapters_Change	= 20
+Form_KapaLC002_NumAdapters_Default	= 160
+Form_KapaLC002_NumAdapters_Max	= 1920
+Form_KapaLC002_NumAdapters_Min	= 20
+Form_KapaLC002_NumAdapters_Caption	= Num. of Adapters:
+
+
