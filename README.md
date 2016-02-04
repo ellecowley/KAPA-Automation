@@ -1,5 +1,4 @@
 # Kapa Automation Code Repository #
-**For Agilent NGS Workstation Option B**
 
 ## Contents ##
 1. [Description](#Description)
@@ -12,16 +11,7 @@
 This repository is intended to serve as the new storage mechanism for for applications for Kapa products to be distributed publicly.
 
 ## Requirements ##
-- Agilent NGS Workstation :warning: <i><b>Option B only</i></b>
-- Consumables
-   - Eppendorf twin.tec 96 PCR plate (Eppendorf, cat# 0030 128.672 (int); 951020460 (US))
-   - Nunc deepwell 1.3 mL plate (Thermo Scientific, cat# 260251)
-   - ABgene 2.2 mL storage plate Mk.II (Thermo Scientific, cat# AB-0933)
-- Deepwell plate adaptor on position 6 (Agilent Technologies, cat# G5498B#012) and supporting device file
-- Labware definitions*
-- Liquid classes definition*
-
-\* provided in `all_labware_liquids.vzp`
+- 
 
 #### Included files ####
 ```
@@ -65,27 +55,11 @@ and extract to `C:\VWorks Workspace\Protocol Files`. Rename the resulting `truse
 
 ### Configure ###
 #### Labware and and liquid class definitions ####
-Use the import feature in VWorks from `File › Import`in the toolbar and select the `all_labware_liquids.vzp` file included. See the [VWorks Knowledge Base][import] for more information.
+
 
 #### Device files ####
-Device files and profiles are system specific and will not be provided. The following Bravo configuration is used in the Nano protocols:
+Device files and profiles are system specific and will not be provided. 
 
-##### Standard configuration #####
-Position | Type | Part#
--------: | ---- | -----
-1&ndash;3, 8  | Deck Platepad | `G5498b#004`
-4, 6     | Peltier Thermal Station (Inheco) | `G5498b#021`
-5        | Orbital Shaking Station | `G5498b#033`
-7        | Magnetic Bead Accessory | `G5498b#008`
-9        | Thermal Station (ThermoCube) | `G5498b#036`/`7`/`8`
-
-For reference see Agilent's [accessories catalog][catalog] for the Bravo.
-
-Each `.pro` file must have the correct device file set. See the [VWorks Knowledge Base][device-file] for more information on how to select the device file.
-
-## Protocol ##
-
-See the NGI Stockholm/SciLifeLab [Standard Operating Procedure][sop].
 
 ## License ##
 > Licensed under the Apache License, Version 2.0 (the "License");
@@ -103,24 +77,18 @@ The full license can also be found in the file LICENSE and must included when re
 
 If this method is used to generate results for publication we ask that you include a reference to this repository, something like:
 ```
-Automation protocols made available by NGI Sweden at https://github.com/ngi-automation/truseq-nano
+Automation protocols made available by Kapa Biosystems Automation Team at https://github.com/ngi-automation/truseq-nano
 ```
 *VWorks Automation Control*, *Bravo* and other things relating to the *Agilent NGS Workstation* are trademarks owned by Agilent Technologies, Inc. (Santa Clara, CA 95052-8058, US).
 
-*TruSeq Nano* is a trademark owned by Illumina, Inc. (San Diego, CA 92122 US)
 
-[email]: mailto:joel.gruselius@scilifelab.se "E-mail author"
-[ngi]: https://portal.scilifelab.se/genomics/ "NGI Stockholm"
-[scilife]: http://www.scilifelab.se/platforms/ngi/ "SciLifeLab"
-[zip]: https://github.com/ngi-automation/truseq-nano/archive/master.zip
-[import]: http://www.velocity11.com/techdocs/AutomationSolutionsKB/vworks4_ug/11_Troubleshooting.15.03.html#2005458
-[catalog]: http://www.chem.agilent.com/Library/catalogs/Public/5991-0369EN.pdf
-[sop]: https://goo.gl/65NYMy
-[device-file]: http://www.velocity11.com/techdocs/AutomationSolutionsKB/vworks4_ug/02_CreateProtocolBasic.04.08.html#1981042
+[email]: mailto:dan.stover@kapabiosystems.com "E-mail author"
+[Kapa Auto]: https://www.kapabiosystems.com/product-applications/applications/next-generation-sequencing/automated-solutions/ "Kapa Automation Page"
+[Kapa Main]: https://www.kapabiosystems.com/ "Kapa Main Website"
 
 ---
 
 >[National Genomics Infrastructure][ngi] at [SciLifeLab][scilife]  
-<joel.gruselius@scilifelab.se>  
-October 2015
+<automation@kapabiosystems.com>  
+January 2015
 
