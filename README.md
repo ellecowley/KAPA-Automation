@@ -11,34 +11,20 @@
 This repository is intended to serve as the new storage mechanism for for applications for Kapa products to be distributed publicly.
 
 ## Requirements ##
-- 
+- License
+- If you publish work made from the contents please reference our repository
 
 #### Included files ####
 ```
-illumina_double-spri.pro
-illumina_spri.pro
-qpcr-384_setup_ver3.pro
-truseq_nano.VWForm
-truseq_nano.js
-truseq_nano.rst
-truseq_nano_ligation.pro
-truseq_nano_pcr.pro
-truseq_nano_reaction.pro
-truseq_nano_setup1.pro
-truseq_nano_setup2.pro
-truseq_nano_setup3.pro
-truseq_nano_setup4.pro
-truseq_nano_setup5.pro
-truseq_nano_setup6.pro
-truseq_nano_setup7.pro
-all_labware_liquids.vzp
-resources/1313497192_media_controls_light_pause.png
-resources/1313497517_media_controls_light_play.png
-resources/clear_inventory.bat
-resources/clear_inventory.sql
+
+
 ```
 
 ## Installation ##
+
+instructions here......
+
+
 ### Download files ###
 
 ##### Using Git #####
@@ -50,10 +36,12 @@ git clone https://github.com/ngi-automation/truseq-nano.git
 ```
 
 Alternatively, download the compressed folder from:
-[`https://github.com/ngi-automation/truseq-nano/archive/master.zip`][zip]
-and extract to `C:\VWorks Workspace\Protocol Files`. Rename the resulting `truseq-nano-master` folder to `truseq-nano`. The path to the folder containing the extracted files should then be `C:\VWorks Workspace\Protocol Files\truseq-nano`.
+[`https://github.com/KapaAutpmation/archive/master.zip`][zip]
+and extract to `C:\VWorks Workspace\Protocol Files`. Rename the resulting `master` folder to ``. The path to the folder containing the extracted files should then be '`.
 
 ### Configure ###
+
+
 #### Labware and and liquid class definitions ####
 
 
@@ -77,11 +65,13 @@ The full license can also be found in the file LICENSE and must included when re
 
 If this method is used to generate results for publication we ask that you include a reference to this repository, something like:
 ```
-Automation protocols made available by Kapa Biosystems Automation Team at https://github.com/ngi-automation/truseq-nano
+Automation protocols made available by Kapa Biosystems Automation Team at https://github.com/
+
+We would love to get your feedback. Please use the "Issues" feature in the repository or contact us directly at automation@kapabiosystems.com
 ```
 
 
-[email]: mailto:dan.stover@kapabiosystems.com "E-mail author"
+[email]: mailto:automation@kapabiosystems.com "E-mail author"
 [Kapa Auto]: https://www.kapabiosystems.com/product-applications/applications/next-generation-sequencing/automated-solutions/ "Kapa Automation Page"
 [Kapa Main]: https://www.kapabiosystems.com/ "Kapa Main Website"
 
