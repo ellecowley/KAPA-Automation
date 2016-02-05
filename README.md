@@ -1,5 +1,8 @@
 # Kapa Automation Code Repository #
 
+project over view here
+
+
 ## Contents ##
 1. [Description](#Description)
 2. [Requirements](#requirements)
@@ -25,7 +28,29 @@ This repository is intended to serve as the new storage mechanism for for applic
 instructions here......
 
 
-### Download files ###
+### Download Files ###
+
+
+## Get Started Developing ##
+
+Clone this repository, create a feature branch, r, etc.. 
+
+pull request remove the remote branch from the repository once it is merged ?
+
+## Code Integration Workflow ##
+
+It's a good idea to outline your development process, as it may change from project to project. Do you want people to fork your repository and send pull requests; create feature branches and send pull requests; or just go ahead and commit to master? Let the developers know up-front, so there's no confusion.
+
+## Environments ##
+
+Outline information for your dev, staging and live environments, if you have them. Also, outline the process for getting things to the various places. How do I make sure my code is on staging? What is the best way to grab a database dump? We like to setup drush aliases for each environment ahead of time as a means of outlining this information and giving developers a good starting point. This document contains some example commands for doing some typical operations. Here's an example.
+
+## Links to where to find more information ##
+
+wiki? 
+where we keep more detailed documentation and notes on things; project details like the original proposal's SOW, credentials to environments, Scrum Notes, Pre-launch checklists, etc.
+
+
 
 ##### Using Git #####
 Clone into `https://github.com/ngi-automation/truseq-nano.git` from the `Protocol Files` directory:
